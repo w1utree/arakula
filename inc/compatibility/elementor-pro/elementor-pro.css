@@ -1,0 +1,45 @@
+/* Shoptimizer Elementor Pro Styling */
+
+.elementor-element.elementor-products-grid ul.products li.product:not(.product-category) {
+	padding-bottom: 40px;
+}
+
+@media (min-width: 993px) {
+	.elementor-products-grid ul.products {
+		width: auto;
+	}
+
+	.elementor-element.elementor-products-grid ul.products li.product {
+		margin-bottom: calc(2.5em - 40px);
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.elementor-element.elementor-products-grid ul.products li.product.ckit-hide-cta:not(.product-category) {
+		padding-bottom: 0;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 992px) {
+
+	.elementor-element.elementor-products-grid ul.products {
+		width: calc(100% - 5px);
+        padding-left: 5px;
+        column-gap: 15px !important;
+    }
+
+}
+
+/* Elementor Pro PDP */
+
+.single-product .product .elementor-widget-woocommerce-product-price .price {
+	float: none;
+}
+
+.single-product .elementor-add-to-cart .cart .single_add_to_cart_button {
+	float: none;
+    width: inherit;
+    height: inherit;
+    line-height: inherit;
+}
